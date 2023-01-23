@@ -1,0 +1,77 @@
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+* {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:active {
+    color: blue;
+}
+
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    overflow-x: hidden !important;
+    /* width: 100vw; */
+}
+
+main {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.menu-button {
+    display: none;
+}
+
+.menu-button div {
+    width: 28px;
+    height: 3px;
+    background-color: black;
+    margin: 6px 0;
+}
+
+header {
+    background-color: #f6f5f5;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding: 20px;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+header .nav span{
+    margin-right: 20px;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.nav a:visited {
+    color: blue;
+}
+
+.nav a:hover {
+    color: black;
+}
+
+
+/* footer */
+footer {
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid rgb(165, 165, 165);
+    background-color: #fff;
+}
+
+
